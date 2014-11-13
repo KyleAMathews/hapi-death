@@ -1,7 +1,7 @@
 exports.register = function(plugin, options, next) {
 
   // Wait 10 seconds for existing connections to close then exit.
-  stop = function() {
+  var stop = function() {
     plugin.servers[0].stop({
       timeout: 10 * 1000
     }, function() {
