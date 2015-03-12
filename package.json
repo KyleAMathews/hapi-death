@@ -1,7 +1,7 @@
 {
   "name": "hapi-death",
   "description": "Help Hapi.js die gracefully by intercepting SIGINT and SIGTERM and calling server.stop() ",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/KyleAMathews/hapi-death/issues"
